@@ -28,8 +28,7 @@ const Header = () => {
           <a href="#home">Início</a>
           <a href="#about">Sobre</a>
           <a href="#services">Serviços</a>
-          <a href="#results">Resultados</a>
-          <a href="#locations">Localizações</a>
+          <a href="#results">Resultados</a>          
           <a href="#contact">Contato</a>
         </nav>
 

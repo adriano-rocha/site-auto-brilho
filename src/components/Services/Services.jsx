@@ -50,7 +50,7 @@ const Services = () => {
       <div className="services-container">
         <div className="services-header">
           <span className="services-tag">NOSSOS SERVIÇOS</span>
-          <h2 className="services-title">
+          <h2 className="services-title" data-aos="fade-up">
             Principais Serviços de{" "}
             <span className="highlight">Estética Automotiva</span>
           </h2>

@@ -22,9 +22,10 @@ const About = () => {
         <div className="about-content">
           <div className="about-header">
             <span className="about-tag">ESTÉTICA AUTOMOTIVA EM CORURIPE</span>
-            <h2 className="about-title">
+            <h2 className="about-title"
+            data-aos="fade-up">
               Estética Automotiva<br />
-              para carros em <span className="highlight">Coruripe</span>
+              Auto <span className="highlight">Brilho</span>
             </h2>
             <p className="about-description">
               Com anos de experiência no mercado de estética automotiva em Coruripe, Profissional altamente 
