@@ -9,8 +9,8 @@ const Hero = () => {
           src="/images/image-hero.jpg"
           alt="Estética Automotiva"
           className="hero-bg-image"
-          data-aos="zoom-in"
-          data-aos-duration="1500"
+          data-aos="zoom-out"
+          data-aos-duration="2000"
         />
         <div className="hero-overlay"></div>
       </div>
@@ -21,14 +21,16 @@ const Hero = () => {
             <h1
               className="hero-title"
               data-aos="fade-down"
-              data-aos-delay="200"
+              data-aos-delay="300"
+              data-aos-duration="1000"
             >
-              Seu Carro novo <span className="highlight">de novo! </span>
+              Padrão <span className="highlight">Novo de Novo! </span>
             </h1>
             <p
               className="hero-subtitle"
               data-aos="fade-up"
-              data-aos-delay="400"
+              data-aos-delay="500"
+              data-aos-duration="1000"
             >
               Transformamos seu veículo com os melhores serviços de estética
               automotiva. Polimento,Higienização, vitrificação, lavagem
@@ -36,8 +38,9 @@ const Hero = () => {
             </p>
             <div
               className="hero-buttons"
-              data-aos="zoom-in"
-              data-aos-delay="600"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              data-aos-duration="1000"
             >
               <a href="#services" className="btn btn-primary">
                 Nossos Serviços

@@ -4,8 +4,8 @@ import "./Footer.css";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const WHATSAPP_LINK = "https://wa.me/5582999999999";
-  const INSTAGRAM_LINK = "https://instagram.com/autobrilho";
-  const FACEBOOK_LINK = "https://facebook.com/autobrilho";
+  const INSTAGRAM_LINK = "https://instagram.com/auto.brilho_al";
+  
 
   return (
     <footer className="footer" data-aos="fade-up" data-aos-duration="800">
@@ -36,15 +36,7 @@ const Footer = () => {
               >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a
-                href={FACEBOOK_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon facebook"
-                aria-label="Facebook"
-              >
-                <i className="fab fa-facebook-f"></i>
-              </a>
+         
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
@@ -136,7 +128,7 @@ const Footer = () => {
             <p className="footer-developer">
               Desenvolvido por{" "}
               <a
-                href="https://seusite.com"
+                href="https://i9criacaodesite.com.br/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

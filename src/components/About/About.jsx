@@ -6,14 +6,35 @@ const About = () => {
     <section className="about" id="about">
       <div className="about-container">
         <div className="about-images">
-          <div className="about-image-large">
-            <img src="/images/polimento-1.jpg" alt="Polimento Profissional" />
+          <div 
+            className="about-image-large"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <img src="/images/vini-work.png" alt="Polimento Profissional" />
           </div>
           <div className="about-images-small">
-            <img src="/images/interior-1.jpg" alt="Limpeza Interior" />
-            <img src="/images/farol-1.jpg" alt="Restauração Faróis" />
+            <img 
+              src="/images/limp.int.png" 
+              alt="Limpeza Interior"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            />
+            <img 
+              src="/images/poli_auto.jpeg" 
+              alt="Restauração Faróis"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+            />
           </div>
-          <div className="about-badge">
+          <div 
+            className="about-badge"
+            data-aos="zoom-in"
+            data-aos-delay="600"
+            data-aos-duration="800"
+          >
             <span className="badge-number">5+</span>
             <span className="badge-text">Anos de Experiência</span>
           </div>
@@ -21,13 +42,28 @@ const About = () => {
 
         <div className="about-content">
           <div className="about-header">
-            <span className="about-tag">ESTÉTICA AUTOMOTIVA EM CORURIPE</span>
-            <h2 className="about-title"
-            data-aos="fade-up">
+            <span 
+              className="about-tag"
+              data-aos="fade-left"
+              data-aos-duration="800"
+            >
+              ESTÉTICA AUTOMOTIVA EM CORURIPE
+            </span>
+            <h2 
+              className="about-title"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
               Estética Automotiva<br />
-              Auto <span className="highlight">Brilho</span>
+              Auto <span className="highlight">Brilho </span>
             </h2>
-            <p className="about-description">
+            <p 
+              className="about-description"
+              data-aos="fade-left"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+            >
               Com anos de experiência no mercado de estética automotiva em Coruripe, Profissional altamente 
               qualificado, (os melhores produtos do mercado), 
               tudo pronto para cuidar do seu carro com 
@@ -36,7 +72,12 @@ const About = () => {
           </div>
 
           <div className="about-features">
-            <div className="feature">
+            <div 
+              className="feature"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              data-aos-duration="1000"
+            >
               <div className="feature-icon">
                 <i className="fas fa-car-side"></i>
               </div>
@@ -46,7 +87,12 @@ const About = () => {
               </div>
             </div>
 
-            <div className="feature">
+            <div 
+              className="feature"
+              data-aos="fade-up"
+              data-aos-delay="800"
+              data-aos-duration="1000"
+            >
               <div className="feature-icon">
                 <i className="fas fa-dollar-sign"></i>
               </div>

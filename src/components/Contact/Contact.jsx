@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
   const WHATSAPP_NUMBER = '5582991617862';
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá! Gostaria de mais informações sobre os serviços de estética automotiva.`;
-  const INSTAGRAM_LINK = 'https://instagram.com/autobrilho';
+  const INSTAGRAM_LINK = 'https://instagram.com/auto.brilho_al';
   const ADDRESS = 'Rua Lindolfo Simões, 177, Coruripe - AL, 57500-000';
   const PHONE = '+55 82 99161-7862';
 
@@ -66,7 +66,7 @@ const Contact = () => {
               </div>
               <div className="card-content">
                 <h3>Instagram</h3>
-                <p>@autobrilho</p>
+                <p>@auto.brilho_al</p>
                 <span className="card-arrow">→</span>
               </div>
             </a>
