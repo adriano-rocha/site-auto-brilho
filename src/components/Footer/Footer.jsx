@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const WHATSAPP_LINK = "https://wa.me/5582999999999";
+  const WHATSAPP_LINK = "https://wa.me/5582991617862";
   const INSTAGRAM_LINK = "https://instagram.com/auto.brilho_al";
   
 
