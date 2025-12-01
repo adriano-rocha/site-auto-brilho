@@ -120,7 +120,7 @@ const Contact = () => {
               </div>
               <div className="badge-info">
                 <span className="badge-title">Estamos em Coruripe</span>
-                <span className="badge-subtitle">Rua Lindolfo Simões, 177</span>
+                <span className="badge-subtitle">Rua Principal, s/n - Bonsucesso - Pindorama</span>
               </div>
             </div>
           </div>

@@ -107,7 +107,7 @@
   bottom: 0;
   width: 40px;
   height: 3px;
-  background: linear-gradient(135deg, #ff6b35, #e91e63);
+  background: linear-gradient(135deg, #ec2a2a, #ec306f);
   border-radius: 2px;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .footer-links li a:hover {
-  color: #ff6b35;
+  color:  #e91e63;
   transform: translateX(5px);
 }
 
@@ -154,7 +154,7 @@
 }
 
 .footer-contact li i {
-  color: #ff6b35;
+  color:  #e91e63;
   font-size: 1.1rem;
   margin-top: 0.2rem;
   flex-shrink: 0;
@@ -180,7 +180,7 @@
 }
 
 .footer-copyright strong {
-  color: #ff6b35;
+  color:  #e91e63;
   font-weight: 700;
 }
 
@@ -191,7 +191,7 @@
 }
 
 .footer-developer a {
-  color: #ff6b35;
+  color:  #e91e63;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;

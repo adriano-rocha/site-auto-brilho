@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const WHATSAPP_LINK = "https://wa.me/5582991617862";
+  const WHATSAPP_LINK = "https://wa.me/558291199086";
   const INSTAGRAM_LINK = "https://instagram.com/auto.brilho_al";
   
 
@@ -97,14 +97,14 @@ const Footer = () => {
               <li>
                 <i className="fas fa-map-marker-alt"></i>
                 <span>
-                  Rua Lindolfo Simões, 177
+                 Rua Principal, s/n - Bonsucesso  Pindorama
                   <br />
-                  Coruripe - AL, 57500-000
+                  Coruripe - AL, 57230-000
                 </span>
               </li>
               <li>
                 <i className="fas fa-phone-alt"></i>
-                <span>+55 82 99999-9999</span>
+                <span>+55 82 9119- 9086</span>
               </li>
               <li>
                 <i className="fas fa-clock"></i>

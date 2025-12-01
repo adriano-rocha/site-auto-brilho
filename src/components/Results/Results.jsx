@@ -20,7 +20,7 @@ const Results = () => {
       category: "vitrificacao",
       title: "Vitrificação",
       videoUrl: "/images/vitri1.mp4",
-      thumbnail: "/images/vitrificacao2.jpeg",
+      thumbnail: "/images/poli-thumbail.png",
       description: "Proteção com produtos premium de alta qualidade",
     },
     {
@@ -39,7 +39,7 @@ const Results = () => {
       category: "polimento",
       title: "No Padrão!",
       videoUrl: "/images/padrao.mp4",
-      thumbnail: "/images/polimento-thumb-1.jpg",
+      thumbnail: "/images/padrao_thumbail.png",
       description: "Processo completo de polimento",
     },
     {
