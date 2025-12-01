@@ -3,7 +3,7 @@ import './WhatsAppFloat.css';
 
 const WhatsAppFloat = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const WHATSAPP_NUMBER = '5582991617862';
+  const WHATSAPP_NUMBER = '558291199086';
   const MESSAGE = encodeURIComponent('Olá! Gostaria de mais informações sobre os serviços de estética automotiva.');
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${MESSAGE}`;
 

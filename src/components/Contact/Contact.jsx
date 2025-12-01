@@ -2,11 +2,11 @@ import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const WHATSAPP_NUMBER = '5582991617862';
+  const WHATSAPP_NUMBER = '558291199086';
   const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Olá! Gostaria de mais informações sobre os serviços de estética automotiva.`;
   const INSTAGRAM_LINK = 'https://instagram.com/auto.brilho_al';
-  const ADDRESS = 'Rua Lindolfo Simões, 177, Coruripe - AL, 57500-000';
-  const PHONE = '+55 82 99161-7862';
+  const ADDRESS = 'Rua Principal bonsucesso - Pindorama AL, 57500-000';
+  const PHONE = '+55 82 9119- 9086';
 
   return (
     <section className="contact" id="contact">
@@ -90,7 +90,7 @@ const Contact = () => {
               <div className="card-content">
                 <h3>Horário de Atendimento</h3>
                 <div className="schedule-list">
-                  <p><strong>Segunda a Sexta:</strong> 9h às 18h</p>
+                  <p><strong>Segunda a Sexta:</strong> 8h às 18h</p>
                   <p><strong>Sábado:</strong> 9h às 13h</p>
                   <p className="closed"><strong>Domingo:</strong> Fechado</p>
                 </div>
@@ -101,16 +101,16 @@ const Contact = () => {
           {/* Coluna Direita - Mapa */}
           <div className="contact-map">
             <div className="map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.123456789!2d-36.17!3d-10.13!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDA3JzQ4LjAiUyAzNsKwMTAnMTIuMCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
-                width="100%"
-                height="100%"
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!4v1764544921990!6m8!1m7!1sj18l2X1XAs_lt0rKBvqweQ!2m2!1d-10.20043572209199!2d-36.33105003003161!3f268.43121491224315!4f5.035104307502166!5f0.7820865974627469" 
+                width="600" 
+                height="450" 
                 style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
+                allowFullScreen="" 
+                loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Localização Auto Brilho"
-              ></iframe>
+              />
             </div>
 
             {/* Badge de Localização */}

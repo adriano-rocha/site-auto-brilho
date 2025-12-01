@@ -46,7 +46,7 @@ const Hero = () => {
                 Nossos Serviços
               </a>
               <a
-                href="https://wa.me/5582999999999?text=Olá! Gostaria de mais informações sobre os serviços de estética automotiva."
+                href="https://wa.me/558291199086?text=Olá! Gostaria de mais informações sobre os serviços de estética automotiva."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp"

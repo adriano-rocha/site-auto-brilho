@@ -17,7 +17,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-logo">
           <img 
-            src="/images/logo.png" 
+            src="/images/logo_red.png" 
             alt="Auto Shine Logo" 
             className="logo"
           />
