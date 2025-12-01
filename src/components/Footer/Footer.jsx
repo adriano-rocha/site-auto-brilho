@@ -5,7 +5,6 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   const WHATSAPP_LINK = "https://wa.me/558291199086";
   const INSTAGRAM_LINK = "https://instagram.com/auto.brilho_al";
-  
 
   return (
     <footer className="footer" data-aos="fade-up" data-aos-duration="800">
@@ -36,7 +35,7 @@ const Footer = () => {
               >
                 <i className="fab fa-instagram"></i>
               </a>
-         
+
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
@@ -97,9 +96,11 @@ const Footer = () => {
               <li>
                 <i className="fas fa-map-marker-alt"></i>
                 <span>
-                 Rua Principal, s/n - Bonsucesso  Pindorama
+                  Rua Principal, s/n - Bonsucesso
                   <br />
-                  Coruripe - AL, 57230-000
+                  CEP: 57230-000
+                  <br />
+                  Pindorama - Coruripe
                 </span>
               </li>
               <li>
