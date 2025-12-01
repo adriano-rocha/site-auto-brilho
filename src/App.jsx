@@ -10,6 +10,7 @@ import Results from "./components/Results/Results";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat/WhatsAppFloat";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <About />
       <Services />
       <Results />
+      <Testimonials />
       <Contact />
       <Footer />
       <WhatsAppFloat />
